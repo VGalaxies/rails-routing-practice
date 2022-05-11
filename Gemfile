@@ -1,20 +1,20 @@
 source 'https://rubygems.org'
-ruby '2.3.1'
+ruby '3.0.3'
 
-gem 'sinatra', '>= 1.4'
-gem 'rails', '~> 4.2'
+gem 'sinatra'
+gem 'rails'
 
 group :development, :test do
-  gem 'cucumber', '2.0.0'
-  gem 'cucumber-sinatra', '0.5.0'
-  gem 'capybara', '2.4.4'
+  gem 'cucumber'
+  gem 'cucumber-sinatra'
+  gem 'capybara'
 
-  gem 'rspec', '3.3.0'
-  gem 'rspec-autotest', '1.0.0'
+  gem 'rspec'
+  gem 'rspec-autotest'
 
-  gem 'rack-test', '0.6.3'
+  gem 'rack-test'
 
-  gem 'byebug', '5.0.0'
-  gem 'launchy', '2.4.3'
-  gem 'rerun', '0.10.0'
+  gem 'byebug'
+  gem 'launchy'
+  gem 'rerun'
 end
